@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1757512741503,
+      "name": "aed",
+      "age": 34,
+      "level": ""
+    },
+    {
+      "id": 1757512780677,
+      "name": "Argishti",
+      "age": 21,
+      "level": ""
+    },
+    {
+      "id": 1757513039182,
+      "name": "ronaldu",
+      "age": 38,
+      "level": ""
+    },
+    {
+      "id": 1757513396389,
+      "name": "ronaldu",
+      "age": 38,
+      "level": "senior"
+    },
+    {
+      "id": 1757513423314,
+      "name": "wsd",
+      "age": null,
+      "level": "junior"
+    },
+    {
+      "id": 1757516583363,
+      "name": "k",
+      "age": null,
+      "level": "junior"
+    }
+  ]
+}
