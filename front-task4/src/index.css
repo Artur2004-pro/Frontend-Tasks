@@ -1,0 +1,136 @@
+/* === Global Dark Mode Setup === */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* === UserList Container === */
+.user-list-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* === Headings === */
+h1 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+/* === Add User Link === */
+.add-user-link, a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  margin-top: 12px;
+}
+
+.add-user-link:hover, a:hover {
+  background-color: #0056b3;
+}
+
+/* === UserItem === */
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s;
+}
+
+.user-item:hover {
+  background-color: #3a3a3a;
+}
+
+.user-item b {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* === UserDetails === */
+.user-details {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.user-details b {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* === AddUser Form === */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+form input {
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 14px;
+}
+
+form input:focus {
+  border-color: #0d6efd;
+  outline: none;
+}
+
+form button {
+  padding: 10px 16px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* === Error Messages === */
+p {
+  color: #ff6b6b;
+  margin-top: -10px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
